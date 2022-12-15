@@ -1,0 +1,84 @@
+.today-wrapper{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-left: 30px; */
+    /* padding: 32px 0 32px 32px; */
+    width: 100%;
+    max-width: 1122px;
+    height: 546px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.today-left{
+    width: 100%;
+    max-width: 784px;
+    padding: 32px;
+}
+.todays-title{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    
+}
+.todays-time{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.todays-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin: 0;
+}
+.todays-text::before{
+    content: '';
+    margin-right: 8px;
+    width: 16px;
+    height: 2px;
+    display: inline-block;
+    background-color: #3751FF;
+    border-radius: 10px;
+}
+.images-wrap{
+    margin-top: 30px;
+}
+
+.today-list{
+    border-left: 1px solid #DFE0EB;
+}
+.today-item{
+    padding-top: 24px;
+    width: 100%;
+    max-width: 342px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #DFE0EB;
+}
+.today-item:nth-child(1){
+    padding-top: 33px;
+}
+.today-item-text{
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.today-number{
+    font-size: 24px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+}

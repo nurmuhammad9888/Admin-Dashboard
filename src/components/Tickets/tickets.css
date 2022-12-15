@@ -1,0 +1,69 @@
+.tickets-input-wrap{
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.tickets-input{
+    padding: 6px 10px 8px 0;
+    width: 100%;
+    border: none;
+}
+.plus{
+    position: absolute;
+    top: 6px;
+    right: 34px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: #F0F1F7;
+    border-radius: 8px;
+    background-image: url("../../assets/images/plus.png");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tickets-item{
+    border-top: 1px solid #DFE0EB;
+    border-bottom: 1px solid transparent;
+}
+.tickets-input-check-sapn{
+    margin-right: 16px;
+    width: 20px;
+    display: block;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #C5C7CD;
+    border-radius: 50%;
+}
+
+.tickets-label{
+    
+}
+.tickets-input-check:checked ~ .tickets-input-check-sapn{
+    background-color: #3751FF;
+    background-image: url("../../assets/images/active-cheked.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tickets-item-number{
+        background: #FEC400;
+        border-radius: 8px;
+        font-size: 11px;
+        padding: 5px 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+}
+.tickets-item:nth-child(3) .tickets-item-number{
+    background: #29CC97;
+}
+.tickets-item:nth-child(4) .tickets-item-number{
+    background: #F0F1F7;
+    color: #9FA2B4;
+}

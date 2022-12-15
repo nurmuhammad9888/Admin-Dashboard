@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Open Sans";
+}
+
+.nav {
+  padding-top: 37px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  background-color: #363740;
+}
+.logo_box {
+  margin-bottom: 63px;
+  padding-left: 32px;
+}
+.logo {
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #a4a6b3;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #a4a6b3;
+}
+.logo_img {
+  margin-right: 12px;
+}
+.active {
+  background: #9fa2b427;
+  border-left: 3px solid #dde2ff;
+}
+.active .nav_link {
+  color: #dde2ff;
+}
+.nav_list_one {
+  padding-bottom: 16px;
+}
+.nav_list_two {
+  padding-top: 16px;
+  border-top: 1px solid #dfe0eb46;
+}
+/* header*/
+.main_page {
+  padding: 30px 23px 0 23px;
+  width: 100%;
+  /* max-width: 1105px; */
+}
+.header_inner{
+  width: 100%;
+    max-width: 1122px;
+}
+.header_text {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  color: #252733;
+}
+.icons_box {
+  padding-right: 33px;
+  border-right: 1px solid #dfe0eb;
+  margin-right: 32px;
+}
+.person_title {
+  margin-right: 14px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.overview_list {
+  display: flex;
+}
+.overview_box {
+  padding-top: 58px;
+}

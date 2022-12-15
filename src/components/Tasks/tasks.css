@@ -1,0 +1,64 @@
+.tasks-wrapper{
+    width: 100%;
+    max-width: 1122px;
+    margin-bottom: 30px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.tasks{
+    width: 100%;
+    max-width: 546px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.tasks-text-wrap{
+    margin: 32px 32px 8px 32px;
+}
+.tasks-title{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.tasks-link{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #3751FF;
+    text-decoration: none;
+}
+.tasks-text{
+    margin-left: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.tasks-span{
+    color: #252733;
+}
+.tasks-item{
+    padding: 20px 32px 18px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DFE0EB;
+}
+.tasks-item-text{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    
+}
+.tasks-item-number{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
